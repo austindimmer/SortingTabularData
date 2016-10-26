@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingTabularData", "SortingTabularData\SortingTabularData.csproj", "{32B17D4B-C2FD-40BE-806A-7689D9E6779F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingTabularData.Tests", "SortingTabularData.Tests\SortingTabularData.Tests.csproj", "{4215D13F-0FB2-4FE6-82B3-DC6C70C31E1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32B17D4B-C2FD-40BE-806A-7689D9E6779F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32B17D4B-C2FD-40BE-806A-7689D9E6779F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32B17D4B-C2FD-40BE-806A-7689D9E6779F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32B17D4B-C2FD-40BE-806A-7689D9E6779F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4215D13F-0FB2-4FE6-82B3-DC6C70C31E1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4215D13F-0FB2-4FE6-82B3-DC6C70C31E1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4215D13F-0FB2-4FE6-82B3-DC6C70C31E1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4215D13F-0FB2-4FE6-82B3-DC6C70C31E1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
