@@ -51,5 +51,13 @@ namespace SortingTabularData
             return base.Equals(obj);
         }
 
+        public override int GetHashCode()
+        {
+            return
+                this.OptionCode.GetHashCode() ^
+                this.TradeDate.GetHashCode() ^
+                this.TradePricePerOption.GetHashCode();
+        }
+
     }
 }

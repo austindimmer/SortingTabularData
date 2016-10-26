@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using System.IO;
 using CsvHelper.Configuration;
 using System.Diagnostics.Contracts;
+using System.Diagnostics;
 
 namespace SortingTabularData
 {
@@ -37,6 +38,7 @@ namespace SortingTabularData
                 }
                 catch (Exception ex)
                 {
+                    Debug.WriteLine(ex.StackTrace);
                     return null;
                 }
             }
@@ -52,7 +54,7 @@ namespace SortingTabularData
                 }
                 catch (Exception ex)
                 {
-
+                    Debug.WriteLine(ex.StackTrace);
                 }
             }
 
