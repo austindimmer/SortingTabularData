@@ -1,3 +1,4 @@
+Entity,Counterparty,Book,Underlying,OptionType,Currency,TradeDate,OptionCode,Volume,BuySell,SpotPrice,Strike,CallPut,Maturity,Volatility,TradePricePerOption,BuySellQuantity
 Entity2,Ctprty 2,Tech,HP,European,USD,10/10/2005,HODAA,3000,B,17.29,27.3,P,20/01/2007,25,17,3000
 Entity2,Ctprty 2,Tech,HP,European,USD,10/10/2005,HODAB,3500,S,17.29,28.4,P,20/01/2007,25,12,-3500
 Entity2,Ctprty 2,Tech,HP,European,USD,10/10/2005,HODAC,3100,B,17.29,32.3,P,20/01/2007,25,6.6,3100
